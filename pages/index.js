@@ -51,6 +51,12 @@ const useStyles = makeStyles(theme => ({
   headword: {
     marginRight: theme.spacing(1)
   },
+  caution: {
+    margin: theme.spacing(2),
+    backgroundColor: 'red',
+    color: 'white',
+    padding: theme.spacing(1)
+  },
   warn: {
     backgroundColor: '#ffb300'
   },
@@ -258,6 +264,7 @@ let Index = function({
               />
             }
           </div>
+          <Typography variant={'h6'} className={classes.caution}>{`Caution!! UPX token not listed on Binance DEX yet!`}</Typography>
           <div className={classes.upx}>
             <Typography variant={'subtitle1'}>Calculated UPX Total Supply</Typography>
             <div className={classes.totalUpx}>{trimZero(totalUpx)}</div>
