@@ -1,0 +1,39 @@
+{
+  "name": "upx-binance",
+  "version": "1.0.0",
+  "description": "migrate upx erc20 to binance DEX chain",
+  "main": "index.js",
+  "repository": "git@github.com:udap/upx-binance.git",
+  "author": "BigMurry <hhdiao@siom.ac.cn>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "next -p 8090",
+    "prod-run": "next start -p 8090",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "@material-ui/styles": "^4.1.1",
+    "bech32": "^1.1.3",
+    "bignumber.js": "^9.0.0",
+    "clsx": "^1.0.4",
+    "ethers": "npm:f-ethers",
+    "lodash": "^4.17.11",
+    "next": "^8.1.0",
+    "next-redux-saga": "^4.0.2",
+    "next-redux-wrapper": "^3.0.0-alpha.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.3"
+  },
+  "devDependencies": {
+    "xhstandard": "^1.0.0"
+  }
+}
