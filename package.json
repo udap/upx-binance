@@ -34,6 +34,6 @@
     "redux-saga": "^1.0.3"
   },
   "devDependencies": {
-    "xhstandard": "^1.0.0"
+    "xhstandard": "^2.0.0"
   }
 }
