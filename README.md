@@ -1,5 +1,4 @@
 # upx-binance
-migrate upx erc20 to binance DEX chain
 
 # Start by nodejs
 ```
