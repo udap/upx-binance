@@ -20,7 +20,7 @@
     "bignumber.js": "^9.0.0",
     "clsx": "^1.0.4",
     "ethers": "npm:f-ethers",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "next": "^8.1.0",
     "next-redux-saga": "^4.0.2",
     "next-redux-wrapper": "^3.0.0-alpha.3",
